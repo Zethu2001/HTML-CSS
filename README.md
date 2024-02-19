@@ -1,13 +1,11 @@
 # HTML-CSS
 INTRO TO HTML
 
-<ul>
+`<ul>
     <li>To define building block of the web page</li>
     <li>Responsible for marking up the content of a website.</li>
     <li>Hypertext defines the link between the web pages and markup language defines the text document within tag.</li>
-    <li></li>
-    <li></li>
-</ul>
+</ul>`
 
 Hepertext Markup Language <br>
 *To define building block of the web page.<br>
