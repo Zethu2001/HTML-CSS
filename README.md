@@ -2,7 +2,7 @@
 INTRO TO HTML
 
 Hepertext Markup Language <br>
-*To define building block of the web page.<br>
+* To define building block of the web page.<br>
 *Responsible for marking up the content of a website.<br>
 *Hypertext defines the link between the web pages and markup language defines the text document within tag.<br>
 *HTML is not a case sensitive language<br>
