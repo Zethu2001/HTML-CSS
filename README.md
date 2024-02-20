@@ -3,7 +3,7 @@ INTRO TO HTML
 <ul>
     <li>Hepertext Markup Language</li>
     <li>To define building block of the web page.</li>
-    li>Responsible for marking up the content of a website</li>
+    <li>Responsible for marking up the content of a website</li>
     <li>Hypertext defines the link between the web pages and markup language defines the text document within tag.</li>
     <li>HTML is not a case sensitive language</li>
 </ul>
