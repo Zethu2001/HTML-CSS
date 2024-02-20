@@ -1,33 +1,28 @@
 # HTML-CSS
 INTRO TO HTML
-
 <ul>
-    <li>To define building block of the web page</li>
-    <li>Responsible for marking up the content of a website.</li>
+    <li>Hepertext Markup Language</li>
+    <li>To define building block of the web page.</li>
+    li>Responsible for marking up the content of a website</li>
     <li>Hypertext defines the link between the web pages and markup language defines the text document within tag.</li>
+    <li>HTML is not a case sensitive language</li>
 </ul>
 
-Hepertext Markup Language <br>
-*To define building block of the web page.<br>
-*Responsible for marking up the content of a website.<br>
-*Hypertext defines the link between the web pages and markup language defines the text document within tag.<br>
-*HTML is not a case sensitive language<br>
-DOM<br>
+DOM<b>
 
-Document Object Model<br>
-*Model that represents the object or elements in a HTLM document.<br>
-HTTP<b><br>
+Document Object Model
+*Model that represents the object or elements in a HTLM document.
+HTTP<b>
 
-Hypertext Transfer Protocol<b><br>
-*Is a language that browser and server are using to tslk to one another.<br>
-*Not exactly a programming language but a plain text language for communicating over the internet.<br>
-*HTTPS - HTTP + encryption<br>
-HTML ElEMENTS,<b><br>
+Hypertext Transfer Protocol<b>
+*Is a language that browser and server are using to tslk to one another.
+*Not exactly a programming language but a plain text language for communicating over the internet.
+*HTTPS - HTTP + encryption
+HTML ElEMENTS,<b>
 
 *Defines by a start tag, content an end tag.
 *Some HTML elements have no content
 *Empty elements do not have an end tag.
-*Example ,br>
 
 NESTED HTML ELEMENTS
 
@@ -59,15 +54,20 @@ Ordered Lists
 *Items will be marked with bullets by default
 
 Ordered Lists
-*Starts with ol> tag
-*Each list item starts with li> tag
-*Items will be marked with numbers by default.
+<ul>
+<li>Starts with ol> tag</li>
+<li>Each list item starts with li> tag</li>
+<li>Items will be marked with numbers by default.</li>
+</ul>
+
 
 Definition Lists
-*List items with a definition of each term.
-*dl> tag defines the definition list
-*dt> tag defines the name.
-*dd> tag defines each name.
+<ul>
+<li>List items with a definition of each term.</li>
+<li>dl> tag defines the definition list</li>
+<li>dt> tag defines the name.</li>
+<li>dd> tag defines each name.</li>
+</ul>
 
 HTML QUOTES
 
@@ -77,13 +77,15 @@ HTML QUOTES
 *Create separate blocks on the page.
 
 HTML DATE AND TIME INPUTS
+<ul>
+<li>Specifies the date</li>
+<li>Time within the datetime attribute has to be specific.</li>
+<li>Can combine date and time using the datetime attribute.</li>
+<li>time>: used to make anything that specifies a time of day, date or duration.</li>
+<li>Purpose is to determine exact date or time to computers.</li>
+<li>attribute: datetime</li>
+</ul>
 
-*Specifies the date
-*Time within the datetime attribute has to be specific.
-*Can combine date and time using the datetime attribute.
-*time>: used to make anything that specifies a time of day, date or duration.
-*Purpose is to determine exact date or time to computers.
-*attribute: datetime
 
 HTML CODE, PRE AND BR
 
@@ -134,17 +136,60 @@ lang and dir: global attribets and can be used on any html element.
  HTTPS: enhanced security
 
  HTML URL PATHWAYS
-
- An absolute file path is the full URL.
- Relative file paths: points to a file relative to the current page.
+<ul>
+<li>An absolute file path is the full URL.</li>
+<li>Relative file paths: points to a file relative to the current page.</li> 
  Skill used to reference image files, video files, css and javascript files.
 
- NAVIGATION
+</ul>
 
- nav>: set of navigation links
- Is intended only for major blocks of navigation links
- Signifies that it represents the main navigation of the page.
- Not all links of a document should be inside a nav> element.
- We add äria label"of "breadcrumb"to provide context when read aloud.
- In "breadcrumb"links in a "nav"element, using ordered list öl"because the order of links is important.,
- Each link is mark as a link and wrap them in a "footer"element.
+ NAVIGATION
+<ul>
+<li>nav>: set of navigation links</li>
+ <li>s intended only for major blocks of navigation links</li>
+ <li>Signifies that it represents the main navigation of the page.</li>
+ <li>Not all links of a document should be inside a nav> element.</li>
+ <li>We add äria label"of "breadcrumb"to provide context when read aloud.</li>
+ <li>In "breadcrumb"links in a "nav"element, using ordered list öl"because the order of links is important.</li>
+ <li>Each link is mark as a link and wrap them in a "footer"element.</li> 
+</ul>
+ 
+
+ HTML WORKING WITH GRAPHICS AND IMAGES
+
+ IMAGES
+ <UL>
+     <li>Source attribute(src): Tells the browser which image file to load.</li>
+     <li>Alt attribute(alt): Provides a text description of the image.</li>
+     <li>Alt attribute: Serve as a replacement for the image when it can not be seen.</li>
+     <li>Width & Height: Size of the image.</li>
+ </UL>
+ Image Formats
+ <ul>
+     <li>Aims for highest possible quality with the smallest file size.</li>
+     <li>GIF:Graphics Interchange Format</li>
+     -Compressing illustractions that have large areas of the same color.
+     <li>SVG:Scalable Vector Graphics</li>
+     -Contains instructions for drawing rather than individual pixel.
+     <li>JPG:Joint Photographic Expert Group</li>
+     -Compressing photographs
+     -Can be compressed further by reducing color information, finding the right balance between quality and file size.
+     <li>PNG:Portable Network Graphics</li>
+     -Newer format that works well when you need transparency in a photograph.
+     -It outperforms GIF and JPG in compressing certain types of images.
+ </ul>
+<ul>
+    <li>Responsive Image</li>
+    -They automatically adjust to fit the size of the screen.
+    <li>Responsive Width</li>
+    -Demostrate how the source attribute set in the sizes attribute can be utilized to offer multiple image files to the browser.
+    <li>Figcaption and Figures</li>
+    -"<figcaption>"defines a caption for a "<figure>"element
+    <li>"<figcaption>"element can be placed as the first or last child of the "<figure>" element</li>
+    - It supports global attributes in html.
+    <li>"<figur>" specifies self-contained content like photos, diagrams and more.</li>
+    <li>It relates to the main flow</li>
+    <li>It's position is independent of the main flow</li>
+    <li>If removed it will not affect the flow of the document.</li>
+    <li>It supports global attributes in html.</li>
+</ul> 
