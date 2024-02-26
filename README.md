@@ -239,6 +239,42 @@ The Meta Attribute
 <li>Also div is a block level element  and they are usually used a lot in javascript and CSS</li>
 <li>Span is used to mark desired phrase and they can make use of various global attribute</li>
  </ul>
+ HTML INTEGRATION 
+ <ul>
+     <li>It is important because it lets developers organize content and make it easy to interact with on web pages.</li>
+ </ul>
+HTML PAGE
+<ul>
+<li>File should begin with a doctype statement.</li>
+<li><!doctype>: helps browsers to display web pages correctly.</li>
+<li>After doctype statement, we enclose everything inside html element (<html><?html>).</li>
+<li>Inside html element, there are 2 main parts (HEAD AND BODY)</li>
+<li>All these are essential building blocks of every web page.</li>
+</ul>
+DOCUMENT HEAD
+    <ul>
+<li>Character set: “UTF-8”</li>
+<li>Specified in the <meta> tag</li>
+<li>Ensure meta elements are only placed inside the head as they provide metadata about the page.</li>
+<li>Link element- Serve to connect various assets that should be load.</li>
+    </ul>
+SCRIPT ELEMENT
+    <ul>
+        <li>Script tag- instructs the browser to load javascript file.</li>
+        <li>It is places at the end of the doc.</li>
+    </ul>
+    
+CONTENT STRUCTURING
+Six important elements
+<ol>
+    <li>Main</li>
+    <li>Header</li>
+    <li>Footer</li>
+    <li>Article</li>
+    <li>Section</li>
+    <li>Aside</li>
+</ol>
+Header, Footer, Article, Section and Aside are combined and nested to structure the content of the page.
 
  
 
