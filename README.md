@@ -193,3 +193,20 @@ lang and dir: global attribets and can be used on any html element.
     <li>If removed it will not affect the flow of the document.</li>
     <li>It supports global attributes in html.</li>
 </ul> 
+Working with Media
+        <ul>      
+<li>Multimedia comes in many different formats. It can be almost anything you can hear or see, like images, music, sound, videos, records, films, animations, and more.</li>
+<li>Working with Audio</li>
+<li>You can use JavaScript and the HTML media element API to develop your own custom audio player controls rather than depending on pre-built ones.</li>
+<li>We will not implement that for this example; instead, we will only add the "controls" attribute.</li>
+<li>Then attributes indicate that we want the controls if they are there.</li>
+<li>The website now features an audio player.</li>
+<li>We'll be able to view the time, play, pause, mute, and explore the timeline thanks to this.</li>
+        </ul>
+Working with Video
+        <ul>
+<li> The controls attribute adds video controls, like play, pause, and volume.</li>
+<li> It is a good idea to always include width and height attributes. If height and width are not set, the page might flicker while the video loads.</li>
+<li> The <source> element allows you to specify alternative video files which the browser may choose from. The browser will use the first recognized format.</li>
+        </ul>
+
