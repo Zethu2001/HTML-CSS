@@ -47,7 +47,7 @@ OTHER ELEMENTS
     Inside html> element there is a:
     <li>body>: defines the body of a document.</li>
      Inside body> element there are two other elements: h1> and p>
-    <li><h1>: defines the heading</li>
+    <li>h1>: defines the heading</li>
     <li>p>: defines a paragragh.</li>
     <li>br>: defines a line break, and is an empty element with a closing tag. </li>
 </ul>
