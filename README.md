@@ -9,51 +9,59 @@ INTRO TO HTML
 </ul>
 
 DOM<b>
+<ul>
+    <li>Document Object Model</li>
+    <li>Model that represents the object or elements in a HTLM document.</li>
+</ul>
 
-Document Object Model
-*Model that represents the object or elements in a HTLM document.
 HTTP<b>
+<ul>
+    <li>Hypertext Transfer Protocol</li>
+    <li>Is a language that browser and server are using to tslk to one another.</li>
+    <li>Not exactly a programming language but a plain text language for communicating over the internet.</li>
+    <li>HTTPS - HTTP + encryption</li>
+</ul>
 
-Hypertext Transfer Protocol<b>
-*Is a language that browser and server are using to tslk to one another.
-*Not exactly a programming language but a plain text language for communicating over the internet.
-*HTTPS - HTTP + encryption
-HTML ElEMENTS,<b>
-
-*Defines by a start tag, content an end tag.
-*Some HTML elements have no content
-*Empty elements do not have an end tag.
-
+HTML ElEMENTS<b>
+<ul>
+    <li>Defines by a start tag, content an end tag.</li>
+    <li>Some HTML elements have no content</li>
+    <li>Empty elements do not have an end tag.</li>
+</ul>
 NESTED HTML ELEMENTS
-
-*They can contain other elements.
-*All HTML documents consist of nested HTML elements.
-
+<ul>
+    <li>They can contain other elements.</li>
+    <li>All HTML documents consist of nested HTML elements.</li>
+</ul>
 FOUR HTML ELEMENTS
-
-em>: To add emphasis
-strong>: To show importance or urgency. It adds meaning to the text.
-i>": To display content in italic style.
-b>: Allows us to make something bold.
-
+<ul>
+    <li>em>: To add emphasis</li>
+    <li>strong>: To show importance or urgency. It adds meaning to the text.</li>
+    <li>i>": To display content in italic style.</li>
+    <li>b>: Allows us to make something bold.</li>
+</ul>
 OTHER ELEMENTS
+<ul>
+    <li>html>: Is the root element and it defines the whole html document.</li>
+    Start tag html> and end tag html>
+    Inside html> element there is a:
+    <li>body>: defines the body of a document.</li>
+     Inside body> element there are two other elements: h1> and p>
+    <li><h1>: defines the heading</li>
+    <li>p>: defines a paragragh.</li>
+    <li>br>: defines a line break, and is an empty element with a closing tag. </li>
+</ul>
 
-html>: Is the root element and it defines the whole html document.
-*Start tag html> and end tag html>
-*Inside html> element there is a:
-y>: defines the body of a document.
- Inside body> element there are two other elements: h1> and p>
-<1>: defines the heading
-p>: defines a paragragh.
-br>: defines a line break, and is an empty element with a closing tag. 
-
-HTML LISTS
-Ordered Lists
-*Starts with ul> tag
-*Each list item starts with li> tag
-*Items will be marked with bullets by default
+HTML LISTS<br>
 
 Ordered Lists
+<ul>
+    <li>Starts with ul> tag</li>
+    <li>Each list item starts with li> tag</li>
+    <li>Items will be marked with bullets by default</li>
+</ul>
+
+Unordered Lists
 <ul>
 <li>Starts with ol> tag</li>
 <li>Each list item starts with li> tag</li>
@@ -70,11 +78,12 @@ Definition Lists
 </ul>
 
 HTML QUOTES
-
-*cite> and blockquote> serve a semantic purpose.
-*They provide a convenient way to apply custom styling.
-*Block-level: blockquotes, paragraphs and unordered lists.
-*Create separate blocks on the page.
+<ul>
+    <li>cite> and blockquote> serve a semantic purpose.</li>
+    <li>They provide a convenient way to apply custom styling.</li>
+    <li>Block-level: blockquotes, paragraphs and unordered lists.</li>
+    <li>Create separate blocks on the page.</li>
+</ul>
 
 HTML DATE AND TIME INPUTS
 <ul>
@@ -88,59 +97,64 @@ HTML DATE AND TIME INPUTS
 
 
 HTML CODE, PRE AND BR
-
-*Code: treated as an inline element, meaning it remains part of the sentencr.
-"&lt": html entity, display as a less than sign.
-"&gt": html entity, display as a greater than sign.
-*These entities are useful when you want to display html code on a page instead of executing it.
-*br: it indicates where a line break should happen.
-*pre: to contain your space, line breaks, helps you to achieve that.
-*pre and code are often combined to display a code block with proper indentation.
+<ul>
+    <li>Code: treated as an inline element, meaning it remains part of the sentencr.</li>
+    <li>"&lt": html entity, display as a less than sign.</li>
+    <li>"&gt": html entity, display as a greater than sign.</li>
+    <li>These entities are useful when you want to display html code on a page instead of executing it.</li>
+    <li>br: it indicates where a line break should happen.</li>
+    <li>pre: to contain your space, line breaks, helps you to achieve that.</li>
+    <li>pre and code are often combined to display a code block with proper indentation.</li>
+</ul>
 
 HTML SUPERSCRIPTS, SUBSCRIPTS AND SMALL TEXT
 
 Subscripts
-sub> appears half a character below the normal line, sometimes renered in a smaller font than normal.
-They mostly used for chemical formulas.
-
+<ul>
+    <li>sub> appears half a character below the normal line, sometimes renered in a smaller font than normal.</li>
+    <li>They mostly used for chemical formulas.</li>
+</ul>
 Superscripts
-sup> appears half a character aBOVE THE NORMAL LINE, SOMETIME RENDERED IN SMALLER FONT.
-Can be used as exponent
-
+<ul>
+    <li>Sup> appears half a character above the normal line, sometime rendered in smaller font.</li>
+    <li>Can be used as exponent.</li>
+</ul>
 Small Text
-small> defines smaller text.
-Used in copyright and other side comment.
-
+<ul>
+    <li>small> defines smaller text.</li>
+    <li>Used in copyright and other side comment.</li>
+</ul>
 HTML ATTRIBUTES
-
-Popular attribute: id
-Global attributes: attributes that can be used with all html elements.
-lang attribute: specifies the language of the elements content.
-dir attribute: indicate the text direction for the content in an element.
-class: indicate one or more classname for an element.Refers to a class in a style sheet.
-lang and dir: global attribets and can be used on any html element.
-"LTR" left to right scripts
-"RTL"right to left scripts
-
+<ul>
+    <li>Popular attribute: id</li>
+    <li>Global attributes: attributes that can be used with all html elements.</li>
+    <li>lang attribute: specifies the language of the elements content.</li>
+    <li>dir attribute: indicate the text direction for the content in an element.</li>
+    <li>class: indicate one or more classname for an element.Refers to a class in a style sheet.</li>
+    <li>lang and dir: global attribets and can be used on any html element.</li>
+    <li>"LTR" left to right scripts</li>
+    <li>"RTL"right to left scripts</li>
+</ul>
  ARIA ROLES
- Accessible Rich Internet Application
- Set of roles and attribute that define ways to make web content and web application more accessible to people with disabilities.
- html has a significant impact on human rights.
- ensures that everyone can use the full fuctionality of a complex interface in an app.
-
- HTML LINKS
- a> tag defines a heperlink
- href attribute indicates the link destination
- links allow users to click their way from page to page.
- links are created using element anchor and add an href attribute with URL enclosed in quotes. This URL is where a link will take us.
- HTTPS: enhanced security
-
- HTML URL PATHWAYS
+ <ul>
+     <li>Accessible Rich Internet Application</li>
+     <li>Set of roles and attribute that define ways to make web content and web application more accessible to people with disabilities.</li>
+     <li> html has a significant impact on human rights.</li>
+     <li> ensures that everyone can use the full fuctionality of a complex interface in an app.</li>
+ </ul>
+  HTML LINKS
+ <ul>
+     <li> a> tag defines a heperlink</li>
+     <li>href attribute indicates the link destination</li>
+     <li>links allow users to click their way from page to page.</li>
+     <li>links are created using element anchor and add an href attribute with URL enclosed in quotes. This URL is where a link will take us.</li>
+     <li> HTTPS: enhanced security</li>
+ </ul>
+HTML URL PATHWAYS
 <ul>
 <li>An absolute file path is the full URL.</li>
 <li>Relative file paths: points to a file relative to the current page.</li> 
- Skill used to reference image files, video files, css and javascript files.
-
+ <li>Skill used to reference image files, video files, css and javascript files.</li>
 </ul>
 
  NAVIGATION
@@ -221,8 +235,8 @@ Working with the lang and charset attributes
  <ul>
 <li>Most languages flow from left to right horizontally, but some flow from right to left. Use the dir attribute to indicate the direction, and it can be applied to any element.</li>
 <li>It is helpful when the content on your page goes to same direction you just define it once on the outer HTML element</li>
-<li><html lang =”en-US”>  and <html lang =”en-BS”> in this example the content is Engish in United state and Great British</li>
-<li><html la>ng =”en-US” dir=”ltr”>  and <html lang =”en-BS” ” dir=”rtl”> this one shows that en-gb is from right to left and other one vice verse.</li>
+<li><html lang =”en-US”>  and "<html lang =”en-BS”>"in this example the content is Engish in United state and Great British</li>
+<li>"<html la>ng =”en-US” dir=”ltr”>"  and "<html lang =”en-BS” ” dir=”rtl”>" this one shows that en-gb is from right to left and other one vice verse.</li>
  </ul>
 
 The Meta Attribute
@@ -264,7 +278,7 @@ SCRIPT ELEMENT
         <li>It is places at the end of the doc.</li>
     </ul>
     
-CONTENT STRUCTURING
+CONTENT STRUCTURING<br>
 Six important elements
 <ol>
     <li>Main</li>
