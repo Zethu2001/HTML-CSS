@@ -209,4 +209,36 @@ Working with Video
 <li> It is a good idea to always include width and height attributes. If height and width are not set, the page might flicker while the video loads.</li>
 <li> The <source> element allows you to specify alternative video files which the browser may choose from. The browser will use the first recognized format.</li>
         </ul>
+        
+ HTML Language Support
+ <ul>
+<li>The lang attribute is used to specify the language of a webpage and If the whole page is in one language, it is quite simple.</li>
+<li>Set the language on the main element that wraps everything else, which is usually the HTML element.</li>
+<li>In HTML, it's good to have a lang attribute in <html>, e.g. <html lang="en">.</li>
+ </ul>
+ 
+Working with the lang and charset attributes
+ <ul>
+<li>Most languages flow from left to right horizontally, but some flow from right to left. Use the dir attribute to indicate the direction, and it can be applied to any element.</li>
+<li>It is helpful when the content on your page goes to same direction you just define it once on the outer HTML element</li>
+<li><html lang =”en-US”>  and <html lang =”en-BS”> in this example the content is Engish in United state and Great British</li>
+<li><html la>ng =”en-US” dir=”ltr”>  and <html lang =”en-BS” ” dir=”rtl”> this one shows that en-gb is from right to left and other one vice verse.</li>
+ </ul>
+
+The Meta Attribute
+<ul>
+<li>The meta tag defines the metadata about the HTML document while metadata is information about data</li>
+<li><meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.</li>
+<li>There is a method to let web designers take control over the viewport</li>
+<li>To specify the charset in HTML, simply include a meta charset tag that equals UTF-8.</li>
+</ul> 
+    
+ HTML Generic Elements, Div and Span
+ <ul>
+<li>There two elements such as div which is used to create sidebars and sections .</li>
+<li>Also div is a block level element  and they are usually used a lot in javascript and CSS</li>
+<li>Span is used to mark desired phrase and they can make use of various global attribute</li>
+ </ul>
+
+ 
 
