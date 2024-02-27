@@ -288,7 +288,19 @@ Six important elements
     <li>Section</li>
     <li>Aside</li>
 </ol>
-Header, Footer, Article, Section and Aside are combined and nested to structure the content of the page.
+Header, Footer, Article, Section and Aside are combined and nested to structure the content of the page. 
 
+WORKING WITH FORMS AND INTERATIVE ELEMENTS
+
+Form Fundamentals.
+<ul>
+    <li>Html form element is used to create an html form user input.</li>
+    <li>Contains different types of input elements.Text fields,chechbox,radio buttons and more</li>
+    <li>Input element can be displayed in many ways, depending on the type attribute.</li>
+</ul>
+TYPES
+<OL>
+    <li>"<input type = "text">: displays a single-line text input field.</li>
+</OL>
  
 
