@@ -300,7 +300,11 @@ Form Fundamentals.
 </ul>
 TYPES
 <OL>
-    <li>"<input type = "text">: displays a single-line text input field.</li>
+    <li>"input type= "text": displays a single-line text input field.</li>
+    <li>"input type= "radio"":selecting one of many choices</li>
+    <li>"input type= "checkbox"":selecting zero or more of many choices.</li>
+    <li>"input type= "submit": for submitting the form.</li>
+    <li>"input type= "button": displays clickable button.</li>
 </OL>
  
 
