@@ -296,6 +296,7 @@ Form Fundamentals.
 <ul>
     <li>Html form element is used to create an html form user input.</li>
     <li>Contains different types of input elements.Text fields,chechbox,radio buttons and more</li>
+    <li>Input element provide places for users to input their details.
     <li>Input element can be displayed in many ways, depending on the type attribute.</li>
 </ul>
 TYPES
@@ -306,5 +307,29 @@ TYPES
     <li>"input type= "submit": for submitting the form.</li>
     <li>"input type= "button": displays clickable button.</li>
 </OL>
+ To make form accessible to everyone, 2 options.
+ <ol>
+     <li>We add "For" attribute to the label that matches the "id" attribute of the input.</li>
+     <li>Wrap the input with the label.</li>
+ </ol>
+ <ul>
+     <li> The label tag defines a label for many form elements</li>
+     <li>Action attribute defines the action to be performed when the form is submitted.</li>
+ </ul>
+ ORGANIZING TABULAR INFORMATION IN HTML<br>
+ Html tables<br>
+ <ul>
+     <li>Allow web developers to arrange data into rows and columns.</li>
+     <li>Each table cell is defined by a td> and ends with /td>.</li>
+     <li>td: marks up the cells of data.</li>
+     <li>Everything between table data are the content of the table cell.</li>
+     <li>Table row tr> ends with /tr> tag.</li>
+     <li>Table header th> ends with /th> tag.</li>
+     Elements needed in building html tables
+     <li>table</li>
+     <li>th</li>
+     <li>td</li>
+     <li>tr</li>
+ </ul>
  
 
