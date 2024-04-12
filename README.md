@@ -331,5 +331,95 @@ TYPES
      <li>td</li>
      <li>tr</li>
  </ul>
- 
-
+ CASCADING STYLE SHEET
+ <UL>
+     <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+     <li> Used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</li>
+ </UL>
+ CSS TYPES
+ <UL>
+     <LI>External CSS</LI>
+     <LI>Internal CSS</LI>
+     <LI>Inline CSS</LI>
+ </UL>
+ CSS SYNTAX <BR>
+ <ul>
+     <li>CSS rule consists of a selector and a declaration block.</li>
+     <li>The selector points to the HTML element you want to style.</li>
+     <li>The declaration block contains one or more declarations separated by semicolons.</li>
+ </ul>
+ EXAMPLE
+ [p {
+  color: red;
+  text-align: center;
+}]
+<UL>
+    <li>p is a selector in CSS (it points to the HTML element you want to style: <p>).</li>
+    <li>color is a property, and red is the property value</li>
+    <li>text-align is a property, and center is the property value</li>
+</UL>
+CSS SELECTORS<BR>
+CSS selectors are used to "find" (or select) the HTML elements you want to style.
+<UL>
+ <LI>Element selector</LI>
+<LI>Class selector</LI>
+  <LI>ID selector</LI>
+ <LI>Descendant selector</LI>
+   <LI>Child selector</LI>
+</UL>
+CSS IMAGES AND COLORS
+Css styling images
+<UL>
+    <LI>Background images</LI>
+    <LI>Responsive images</LI>
+    <LI>Image replacement tecknique</LI>
+</UL>
+Css colors
+<ul>
+    <li>Identify color scheme</li>
+    <li>Formatting color in Css</li>
+    <li>Background and text color</li>
+</ul>
+BOX MODEL IN CSS
+<UL>
+    <LI>Padding: Create space around content.</LI>
+    <li>Border: Allows user to specify the style.</li>
+    <li>Margin: Create space around elements, outside of any defined borders.
+</li>
+</UL>
+CSS WIDTH/HEIGHT<BR>
+The height and width properties are used to set the height and width of an element.<BR>
+The height and width properties may have the following values:
+<UL>
+    <LI>auto - This is default. The browser calculates the height and width</LI>
+    <LI>length - Defines the height/width in px, cm, etc.</LI>
+    <LI>% - Defines the height/width in percent of the containing block</LI>
+    <LI>initial - Sets the height/width to its default value</LI>
+    <LI>inherit - The height/width will be inherited from its parent value</LI>
+</UL>
+STYLING LINKS WITH CSS<BR>
+Links can be styled in many different way:
+<UL>
+    <LI>a:link,a normal, unvisited link</LI>
+    <li>a:visited - a link the user has visited</li>
+    <li>a:hover - a link when the user mouses over it</li>
+    <li>a:active - a link the moment it is clicked</li>
+</UL>
+CSS LAYOUT
+FLOAT<BR>
+The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
+<UL>
+    <LI>left - The element floats to the left of its container</LI>
+    <LI>right - The element floats to the right of its container</LI>
+    <LI>none - The element does not float (will be displayed just where it occurs in the text). This is default</LI>
+    <LI>inherit - The element inherits the float value of its parent</LI>
+</UL>
+CLEAR<BR>
+The clear property specifies what should happen with the element that is next to a floating element.
+<UL>
+    <LI>none - The element is not pushed below left or right floated elements. This is default</LI>
+    <LI>left - The element is pushed below left floated elements</LI>
+    <LI>right - The element is pushed below right floated elements</LI>
+    <LI>both - The element is pushed below both left and right floated elements</LI>
+    <LI>inherit - The element inherits the clear value from its parent</LI>
+</UL>
